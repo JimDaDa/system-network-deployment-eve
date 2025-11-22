@@ -21,8 +21,7 @@ Hệ thống mạng được triển khai trên 2 site:
 - Bảo mật Layer 2: Triển khai Port Security và DHCP Snooping trên các Switch Access để ngăn chặn tấn công.
 - Quản trị Thiết bị: Cấu hình SSH Access để quản trị thiết bị từ xa một cách bảo mật, và NTP Syslog để đồng bộ thời gian và quản lý log hệ thống.
 
-Dự án sử dụng 2 Server Windows (một ở miền Nam và một ở miền Bắc) và cấu hình các vai trò (Roles) máy chủ sau:
-### 🖥️ Hạ tầng Máy chủ & Dịch vụ (Server Infrastructure)
+#### Dự án sử dụng 2 Server Windows (một ở miền Nam và một ở miền Bắc) và cấu hình các vai trò (Roles) máy chủ sau:
 
 Các dịch vụ mạng cốt lõi được triển khai tập trung tại Server Farm của hai miền, đảm bảo khả năng phục vụ liên tục cho toàn bộ hệ thống.
 
